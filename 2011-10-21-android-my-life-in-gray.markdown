@@ -80,7 +80,7 @@ Compile and install the project on your device:
 
 A ddms screenshot and a cropping later:
 
-{% img center http://blog.summo.org/images/mylifeingray.png %}
+{% img center http://blog.renaud.io/images/mylifeingray.png %}
 
 That's weird but `lighter_gray` is not public… We have access to only one gray system color! To conclude: although we could use the system colors, and since one and only one color is just useless, we would rather deﬁne `lighter_gray` and `darker_gray` in our own `res/values/colors.xml` ﬁle and if we need more grayish colors, we would use a `gray_xx`, `xx` corresponding to the percentage of white color.
 
