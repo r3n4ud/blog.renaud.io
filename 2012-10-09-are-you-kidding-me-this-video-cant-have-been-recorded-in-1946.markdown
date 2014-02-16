@@ -14,11 +14,11 @@ categories: [Android, FFmpeg]
 Googling time
 -------------
 
-That's strange but there are only few relevant results returned by Google on that crippled timestamp. After some digging, I found out that [FFmpeg issue](https://ffmpeg.org/trac/ffmpeg/ticket/1471). In fact, that's the fourth result of a Google search on `android video creation_time` but it's like always, you just need to find the good keywords.
+That's strange but there are only few relevant results returned by Google on that crippled timestamp. After some digging, I found out that [FFmpeg issue](https://ffmpeg.org/trac/ffmpeg/ticket/1471). In fact, that's the fourth result of a Google search on `android video creation_time` but it's like always, you just need to ﬁnd the good keywords.
 
-Matter fixed
+Matter ﬁxed
 ------------
-The ticket's status is `closed defect: fixed`. OK but the issue tracker doesn't contain any reference to the fix.
+The ticket's status is `closed defect: fixed`. OK but the issue tracker doesn't contain any reference to the ﬁx.
 
     $ git clone git://source.ffmpeg.org/ffmpeg.git
     $ git log --grep=1471
@@ -76,6 +76,14 @@ The wording of the *Compile time* is unclear at least, so:
 
 - libav is now the default on Debian GNU/Linux.
 
-- `libavformat/mov.c` has evolved differently but FFmpeg seems to provide a fix (that must be
-  verified) but that doesn't mean that the issue has not been fixed in the libav edge, only that
+- `libavformat/mov.c` has evolved diﬀerently but FFmpeg seems to provide a ﬁx (that must be
+  veriﬁed) but that doesn't mean that the issue has not been ﬁxed in the libav edge, only that
   I've found only clue that the issue has been adressed by the FFmpeg project.
+
+Update 2
+--------
+
+I had ﬁled [a bug on libav](https://bugzilla.libav.org/show_bug.cgi?id=381) just to found out that
+the issue had been ﬁxed in Android 4.2.
+
+Matter ﬁxed!
